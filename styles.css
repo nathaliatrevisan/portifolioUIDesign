@@ -1,0 +1,140 @@
+body {
+    font-family: Century Gothic, CenturyGothic,AppleGothic,sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1d1d1d;
+    color: #DEDEDE;
+}
+
+header {
+    background-color: #1a1818;
+    color: #DEDEDE;
+    padding: 10px 0;
+    text-align: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+header p {
+    margin-top: 50px;
+    font-size: 24px;
+    color: #DEDEDE;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav button{
+
+    background-color: #1d1d1d; /* Cor de fundo do botão */
+    color: #DEDEDE; /* Cor do texto do botão */
+    border:1px solid #DEDEDE; /* Remove a borda padrão do botão */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    border-radius: 5px; /* Cantos arredondados */
+    cursor: pointer; /* Transforma o cursor em uma mãozinha ao passar o mouse */
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2); 
+}
+
+nav button:hover {
+    background-color: #DEDEDE; /* Cor de fundo alterada */
+    color: #1d1d1d;
+    border:1px solid #1d1d1d;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;  
+}
+
+nav ul {
+    margin-top: 0px;
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right:20px;
+}
+
+section {
+    padding: 10px 0;
+}
+
+.texto_container {
+    text-align: center;
+}
+
+.container img {
+
+    max-width: 300px;
+    max-height: 300px;    
+    text-align: left;  
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.img_container{
+    padding: 20px 0;
+    display: flex;
+
+}
+
+.img_container p {
+
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
+    flex: 1;
+    font-size: 16px;
+  }
+
+
+h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+section {
+    padding: 10px 0;
+}
+
+.project {
+    margin-bottom: 40px;
+}
+
+.project p{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
+    flex: 1;
+    font-size: 16px;
+}
+
+.project img {
+    max-width: 50%;
+    margin-top: 20px;
+    margin-left: 320px;
+}
+
+.project h2{
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Additional styles for enhancing your UI design can be added as needed. */
